@@ -14,4 +14,9 @@ it('comprobar función suma', function() {
 });
 
 
-
+// Test
+it('comprobar función espar', function() {
+	assert.equal(operaciones.espar(22), 1);
+	assert.equal(operaciones.espar(5), 0);
+	assert.equal(operaciones.espar(-11), 0);
+});
